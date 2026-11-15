@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "topic": "Absolutism ja Päikesekuningas",
+    "question": "Kes Prantsuse monarhidest oli tuntud kui 'Päikesekuningas' ja kellele omistatakse lause 'Riik – see olen mina!' (L'État, c'est moi)?",
+    "options": [
+      "Louis XIV",
+      "Louis XVI",
+      "Henri IV",
+      "Napoleon Bonaparte"
+    ],
+    "correct": 0,
+    "explanation": "Louis XIV valitses Prantsusmaad 1643–1715 ning tema valitsemisaega peetakse Euroopa absolutismi tippajaks. Ta koondas kogu võimu enda kätte ja ehitas Versailles' lossi.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 2,
+    "topic": "Valgustusajastu filosoofia",
+    "question": "Millise kuulsa valgustusfilosoofi teosele 'Seaduste vaim' (1748) tugineb tänapäevane demokraatlik võimude lahususe põhimõte?",
+    "options": [
+      "Voltaire",
+      "Charles de Montesquieu",
+      "Jean-Jacques Rousseau",
+      "René Descartes"
+    ],
+    "correct": 1,
+    "explanation": "Montesquieu sõnastas idee, et türannia vältimiseks peavad seadusandlik, täidesaatev ja kohtuvõim olema teineteisest rangelt lahus ja tasakaalus.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 3,
+    "topic": "Prantsuse revolutsioon",
+    "question": "Mis sündmust peetakse Prantsuse Suure Revolutsiooni alguseks ja mida tähistatakse tänapäeval Prantsusmaa rahvuspühana?",
+    "options": [
+      "Bastille' kindlus-vangla vallutamine (14. juuli 1789)",
+      "Kuningas Louis XVI hukkamine giljotiinil (1793)",
+      "Waterloo lahingu kaotus (1815)",
+      "Versailles' rahulepingu allkirjastamine (1783)"
+    ],
+    "correct": 0,
+    "explanation": "14. juulil 1789 vallutas relvastatud Pariisi rahvas absolutismi ja despootia sümboliks peetud Bastille' kindluse. Sellest sai revolutsiooni alguspäev.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 4,
+    "topic": "Põhjasõda ja Eesti ajalugu",
+    "question": "Millise rahulepinguga lõppes 1700–1721 kestnud Põhjasõda ning Eesti- ja Liivimaa liideti ametlikult Venemaa koosseisu?",
+    "options": [
+      "Uusikaupunki rahu (1721)",
+      "Altmarki vaherahu (1629)",
+      "Tartu rahuleping (1920)",
+      "Viini kongressi leping (1815)"
+    ],
+    "correct": 0,
+    "explanation": "Uusikaupunki (Nystadi) rahuga 1721 loovutas Rootsi Venemaale Liivimaa, Eestimaa, Ingerimaa ja osa Karjalast. Peeter I tagas rüütelkonnale Balti erikorra.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 5,
+    "topic": "Tööstusrevolutsioon",
+    "question": "Kes konstrueeris ja patenteeris 18. sajandi teisel poolel täiustatud universaalse aurumasina, mis sai tööstusrevolutsiooni peamiseks jõumasinaks?",
+    "options": [
+      "James Watt",
+      "George Stephenson",
+      "Thomas Edison",
+      "Nikola Tesla"
+    ],
+    "correct": 0,
+    "explanation": "Šoti insener James Watt täiustas 1769–1784 varasemat Newcomeni aurupumpa, luues esimese tõhusa universaalse aurumasina vabrikute ja kaevanduste jaoks.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 6,
+    "topic": "Prantsuse ühiskond",
+    "question": "Millistest elanikkonnakihtidest koosnes Prantsusmaa nn Kolmas seisus enne 1789. aasta revolutsiooni?",
+    "options": [
+      "Ainult aadelkonnast ja rüütlitest",
+      "Ainult katoliku kiriku vaimulikest",
+      "Talupoegadest, linna käsitöölistest, kaupmeestest ja haritlastest (kodanikest)",
+      "Sõduritest ja kuninglikust kaardiväest"
+    ],
+    "correct": 2,
+    "explanation": "Kolmas seisus moodustas ligi 98% rahvastikust (kogu mitteaadellik rahvas). Kuigi nad maksid peaaegu kõik riigimaksud, puudusid neil poliitilised õigused.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 7,
+    "topic": "Ameerika iseseisvussõda",
+    "question": "Millisel kuupäeval ja aastal võeti vastu Ameerika Ühendriikide Iseseisvusdeklaratsioon?",
+    "options": [
+      "4. juuli 1776",
+      "14. juuli 1789",
+      "16. detsember 1773",
+      "1. jaanuar 1800"
+    ],
+    "correct": 0,
+    "explanation": "Thomas Jeffersoni koostatud Iseseisvusdeklaratsioon kuulutati välja 4. juulil 1776 Philadelphias, millest sai USA iseseisvuspäev.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 8,
+    "topic": "Napoleoni ajastu",
+    "question": "Kuidas nimetati Napoleoni poolt 1804. aastal välja antud seadustikku, mis sätestas kodanike võrdsuse seaduse ees ja eraomandi puutumatuse?",
+    "options": [
+      "Tsiviilkoodeks (Code Civil)",
+      "Õiguste Bill (Bill of Rights)",
+      "Suur vabaduskiri (Magna Charta)",
+      "Berliini dekreet"
+    ],
+    "correct": 0,
+    "explanation": "Napoleoni Tsiviilkoodeks (Code Civil des Français, 1804) sai Euroopa ja maailma kaasaegse eraõiguse ning tsiviilseadusandluse alustalaks.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 9,
+    "topic": "Eesti 19. sajandil",
+    "question": "Mida tähendas Eesti talurahvale mõiste 'linnupriius' pärast 1816. ja 1819. aasta talurahvaseadusi?",
+    "options": [
+      "Talupoeg sai isikliku vabaduse, kuid kogu maa jäi mõisniku omandiks",
+      "Talupojad said õiguse vabalt jahti pidada mõisniku metsades",
+      "Talupojad said tasuta oma talukoha päriseks",
+      "Talupojad vabastati igasugusest maksukoormusest ja teoorjusest"
+    ],
+    "correct": 0,
+    "explanation": "Pärisorjuse kaotamisel said talupojad küll isikliku vabaduse, kuid kuna maa kuulus mõisnikule, pidid nad talu pidamiseks tegema teoorjust. Vabadust ilma maata hüüti 'linnupriiusiks'.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 10,
+    "topic": "Majandusmõtte areng",
+    "question": "Mis on merkantilism, mida propageeris Prantsuse rahandusminister Colbert?",
+    "options": [
+      "Majanduspoliitika, mis soodustab eksporti ja kulla riiki toomist ning piirab importi tollidega",
+      "Täielik vabakaubandus ilma igasuguste riiklike tollide ja piiranguteta",
+      "Majandus, mis põhineb üksnes põllumajandusel ja eitab tööstust",
+      "Kogu eraomandi kaotamine ja riigistamine"
+    ],
+    "correct": 0,
+    "explanation": "Merkantilismi järgi seisnes riigi rikkus väärismetallide koguses. Riik toetas kohalikke manufaktuure ja eksporti ning kaitses turgu kõrgete sisseveotollidega.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 11,
+    "topic": "Inglise parlamentarism",
+    "question": "Millise dokumendiga kinnitati 1689. aastal Inglismaal 'Kuulsa revolutsiooni' järel konstitutsiooniline monarhia ja parlamendi ülimuslikkus?",
+    "options": [
+      "Õiguste bill (Bill of Rights)",
+      "Pariisi rahuleping",
+      "Versailles' edikt",
+      "Habeas Corpus Act"
+    ],
+    "correct": 0,
+    "explanation": "1689. a 'Bill of Rights' keelas kuningal ilma parlamendi nõusolekuta seadusi peatada või uusi makse kehtestada, pannes aluse tänapäevasele parlamentaarsele riigikorrale.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 12,
+    "topic": "Põhjasõda",
+    "question": "Milline lahing 1709. aastal Ukrainas murdis Rootsi suurriigi sõjalise maavõimsuse Põhjasõjas?",
+    "options": [
+      "Poltava lahing",
+      "Narva lahing",
+      "Riia piiramine",
+      "Grönhamni merelahing"
+    ],
+    "correct": 0,
+    "explanation": "1709. aasta Poltava lahingus purustas Peeter I armee Rootsi kuninga Karl XII väed. Karl XII pidi põgenema Türki ja Rootsi initsiatiiv sõjas oli lõplikult murtud.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 13,
+    "topic": "Balti erikord",
+    "question": "Mis oli Balti erikord, mis kehtestati Eesti- ja Liivimaal pärast Vene impeeriumiga liitmist 1710–1721?",
+    "options": [
+      "Baltisaksa aadli eriõigused: rüütelkondade omavalitsus, luteri usk ja saksa asjaajamiskeel",
+      "Eesti talupoegadele antud kohene vabadus ja autonoomne parlament",
+      "Vene õigeusu ja vene keele kohustuslik kehtestamine kohe kõigis koolides",
+      "Rootsi seaduste täielik tühistamine ja maa jaotamine Vene bojaaridele"
+    ],
+    "correct": 0,
+    "explanation": "Balti erikord tagas kohalikule baltisaksa aadlile (rüütelkondadele) ulatusliku omavalitsuse, säilitas luteri usu ning saksa keele kohtutes ja koolides.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 14,
+    "topic": "Valgustusajastu",
+    "question": "Millise filosoofi kuulus teos kandis pealkirja 'Ühiskondlikust lepingust' (1762), kus kuulutati, et kõrgeim võim kuulub rahvale?",
+    "options": [
+      "Jean-Jacques Rousseau",
+      "Voltaire",
+      "Thomas Hobbes",
+      "Immanuel Kant"
+    ],
+    "correct": 0,
+    "explanation": "Rousseau arvas, et valitsejad peavad täitma rahva üldist tahet. Kui valitseja ühiskondlikku lepingut rikub, on rahval õigus ta võimult kukutada.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 15,
+    "topic": "Ameerika vabadussõda",
+    "question": "Mis oli 1773. aastal aset leidnud 'Bostoni teejoomise' tegelik sisu?",
+    "options": [
+      "Ameerika kolonistid viskasid Briti teemaksu protestiks sadamasse 342 kasti Inglise teed",
+      "Kuningas George III korraldas piduliku teejoomise rahu tähistamiseks",
+      "Bostoni kodanikud mürgitati Briti sõdurite poolt mürgise teega",
+      "Esimene Ameerika teeistanduse avamise pidu Bostonis"
+    ],
+    "correct": 0,
+    "explanation": "Bostoni teejoomine oli vastupanuaktsioon Briti parlamendi teeseaduse vastu hüüdlause all 'Ei mingeid makse ilma esinduseta!'.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 16,
+    "topic": "Prantsuse revolutsioon",
+    "question": "Milline hukkamisvahend võeti Prantsuse revolutsiooni ajal kasutusele kui 'humaanne ja kõiki seisuseid võrdsustav' surmanuhtluse riist?",
+    "options": [
+      "Giljotiin",
+      "Võllas",
+      "Rattale tõmbamine",
+      "Mõõk"
+    ],
+    "correct": 0,
+    "explanation": "Dr. Joseph-Ignace Guillotin soovitas kasutada langeva teraga masinat, et hukkamine toimuks kiiresti ja valutult ning sõltumata hukatava seisusest.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 17,
+    "topic": "Prantsuse revolutsioon",
+    "question": "Kes oli Jakobiinide radikaalse terrorirežiimi eesotsas aastatel 1793–1794, keda kutsuti 'Ärakorrumpeerumatuks'?",
+    "options": [
+      "Maximilien Robespierre",
+      "Georges Danton",
+      "Jean-Paul Marat",
+      "Markii de Lafayette"
+    ],
+    "correct": 0,
+    "explanation": "Robespierre juhtis Rahva Päästekomiteed ja viis ellu 'Suure terrori', saates giljotiinile kümneid tuhandeid inimesi, kuni ta ise 1794 kukutati.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 18,
+    "topic": "Prantsuse revolutsioon",
+    "question": "Mis nime kandis 26. augustil 1789 vastu võetud ajalooline dokument, mis kuulutas kõigi inimeste põhiõigusi?",
+    "options": [
+      "Inimese ja kodaniku õiguste deklaratsioon",
+      "Ameerika iseseisvusdeklaratsioon",
+      "Õiguste Bill",
+      "Püha Liidu akt"
+    ],
+    "correct": 0,
+    "explanation": "Dokument sätestas, et 'inimesed sünnivad ja jäävad vabaks ning õigustelt võrdseks' ning tagas sõna-, usu- ja omandivabaduse.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 19,
+    "topic": "Napoleoni ajastu",
+    "question": "Millist kuulsat lahingut 1805. aastal nimetatakse 'Kolmekeisrilahinguks', kus Napoleon purustas Vene ja Austria armeed?",
+    "options": [
+      "Austerlitzi lahing",
+      "Trafalgari merelahing",
+      "Leipzigi Rahvastelahing",
+      "Borodino lahing"
+    ],
+    "correct": 0,
+    "explanation": "Austerlitzi lahingus (tänapäeva Tšehhis) võitlesid Prantsuse keiser Napoleon I, Vene tsaar Aleksander I ja Austria keiser Franz II.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 20,
+    "topic": "Napoleoni ajastu",
+    "question": "Mida tähendas Napoleoni poolt 1806. aastal kehtestatud Kontinentaalblokaad?",
+    "options": [
+      "Keeldu kõigile Euroopa riikidele pidada kaubandussuhteid Suurbritanniaga",
+      "Pariisi linna ümbritsemist kaitsvate müüridega",
+      "Venemaa sadamate sulgemist Läänemerel",
+      "Kõigi Euroopa kirikute sulgemist ja varade konfiskeerimist"
+    ],
+    "correct": 0,
+    "explanation": "Kontinentaalblokaadi eesmärk oli laostada Suurbritannia majandus, kuna merel oli Briti laevastik Trafalgari järel võitmatu.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 21,
+    "topic": "Napoleoni ajastu",
+    "question": "Kus toimus 1815. aastal Napoleoni viimane otsustav lahing, kus ta sai hertsog Wellingtoni ja marssal Blücheri vägedelt lõpliku kaotuse?",
+    "options": [
+      "Waterloo all",
+      "Borodino all",
+      "Austerlitzi all",
+      "Jena all"
+    ],
+    "correct": 0,
+    "explanation": "18. juunil 1815 peetud Waterloo lahing lõpetas Napoleoni 'Saja päeva' valitsusaja ning viis tema pagendamiseni kaugele Püha Helena saarele.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 22,
+    "topic": "Euroopa diplomaatia",
+    "question": "Millisel kongressil 1814–1815 joonistati pärast Napoleoni alistamist ümber Euroopa kaart ja püüti taastada vana korda (legitiimsust)?",
+    "options": [
+      "Viini kongressil",
+      "Pariisi rahukonverentsil",
+      "Berliini kongressil",
+      "Uusikaupunki kongressil"
+    ],
+    "correct": 0,
+    "explanation": "Austria riigikantsler Klemens von Metternichi juhtimisel toimunud Viini kongress taastas vanad dünastiad ja kehtestas suurriikide jõudude tasakaalu.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 23,
+    "topic": "Tööstusrevolutsioon",
+    "question": "Mida tegid nn ludiidid 19. sajandi alguse Inglismaal?",
+    "options": [
+      "Purustasid vabrikutes masinaid, süüdistades neid tööpuuduses ja vaesuses",
+      "Ehitasid esimesi auruvedureid ja raudteid",
+      "Kaitsesid parlamendis vabrikuomanike huve",
+      "Trükkisid salaja valgustusfilosoofide raamatuid"
+    ],
+    "correct": 0,
+    "explanation": "Ludiidid (müütilise 'kindral Nedd Luddi' järgijad) olid töölised ja käsitöölised, kes purustasid mehaanilisi kudumistelgi, sest masinad võtsid neilt leiva.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 24,
+    "topic": "Tööstusrevolutsioon",
+    "question": "Milline transport muutus 1820.–1830. aastatel pärast George Stephensoni veduri leiutamist maismaakaubanduse ja reisimise revolutsiooniks?",
+    "options": [
+      "Raudteetransport (auruvedurid ja rongid)",
+      "Autotransport (bensiinimootoriga autod)",
+      "Lennutransport (lennukid ja õhulaevad)",
+      "Hobuvankrite postitõllad"
+    ],
+    "correct": 0,
+    "explanation": "George Stephenson ehitas veduri 'Rocket' ning 1830 avati Liverpooli ja Manchesteri vaheline regulaarne reisirongiliin.",
+    "difficulty": "Lihtne"
+  },
+  {
+    "id": 25,
+    "topic": "Eesti 19. sajandil",
+    "question": "Mis aastal taasavati Tartu Ülikool, millest sai Baltikumi juhtiv teadus- ja hariduskeskus?",
+    "options": [
+      "1802",
+      "1632",
+      "1710",
+      "1869"
+    ],
+    "correct": 0,
+    "explanation": "Kuigi Rootsi kuningas Gustav II Adolf asutas Tartu Ülikooli 1632, taasavati see keiser Aleksander I ukaasiga 1802. a saksakeelse keiserliku ülikoolina.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 26,
+    "topic": "Eesti 19. sajandil",
+    "question": "Millal pandi eesti talupoegadele ametlikult perekonnanimed seoses pärisorjuse kaotamisega?",
+    "options": [
+      "1820.–1835. aastatel",
+      "1700. aastal Põhjasõja alguses",
+      "1918. aastal Vabariigi väljakuulutamisel",
+      "1688. aastal Rootsi ajal"
+    ],
+    "correct": 0,
+    "explanation": "Pärast 1816/1819 talurahvaseadusi pandi umbes 15 aasta jooksul kõigile eesti maarahva peredele ametlikud perekonnanimed.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 27,
+    "topic": "Valgustatud absolutism",
+    "question": "Milline Preisimaa kuningas (valitses 1740–1786) nimetas end 'riigi esimeseks teenriks', keelustas piinamise ja kohustas talupoegi kartulit kasvatama?",
+    "options": [
+      "Friedrich II Suur",
+      "Wilhelm I",
+      "Otto von Bismarck",
+      "Karl Suur"
+    ],
+    "correct": 0,
+    "explanation": "Friedrich II Suur oli valgustatud absolutismi silmapaistvaim esindaja, kes ühendas filosoofilise valgustuse ja tugeva Preisimaa armee.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 28,
+    "topic": "Kultuur ja filosoofia",
+    "question": "Kes oli prantsuse kirjanik ja filosoof, kes võitles usulise sallimatuse vastu ja kelle motoks oli 'Écrasez l'infâme!' (Purustage see alatu!)?",
+    "options": [
+      "Voltaire (François-Marie Arouet)",
+      "Victor Hugo",
+      "Molière",
+      "Jean Racine"
+    ],
+    "correct": 0,
+    "explanation": "Voltaire kritiseeris teravalt katoliku kiriku fanatismi, kaitses süütult süüdimõistetuid ja pooldas sõnavabadust ning valgustatud monarhiat.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 29,
+    "topic": "Venemaa ajalugu 1812",
+    "question": "Mis nime kandis 1812. aasta septembris peetud ohvriterohke verine lahing Moskva lähistel Napoleoni ja Kutuzovi vägede vahel?",
+    "options": [
+      "Borodino lahing",
+      "Kulikovo lahing",
+      "Poltava lahing",
+      "Smolenski piiramine"
+    ],
+    "correct": 0,
+    "explanation": "Borodino lahingus langes ühelainsal päeval üle 70 000 sõduri. Lahingu järel taandus Kutuzov ja loovutas Moskva, mida prantslased ei suutnud säilitada.",
+    "difficulty": "Keskmine"
+  },
+  {
+    "id": 30,
+    "topic": "Eesti kultuurilugu",
+    "question": "Kes oli see noor eesti luuletaja (1801–1822), kes käis jalgsi Riiast Tartusse ülikooli ja küsis oma oodis: 'Kas siis selle maa keel laulutuules ei või taevani tõustes üles igavikku omale otsida?'",
+    "options": [
+      "Kristjan Jaak Peterson",
+      "Friedrich Robert Faehlmann",
+      "Friedrich Reinhold Kreutzwald",
+      "Johann Voldemar Jannsen"
+    ],
+    "correct": 0,
+    "explanation": "Kristjan Jaak Peterson oli eesti rahvusliku kirjanduse rajaja, kes kandis uhkusega eesti talupojakuube. Tema sünnipäeval (14. märtsil) tähistatakse emakeelepäeva.",
+    "difficulty": "Lihtne"
+  }
+]

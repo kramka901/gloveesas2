@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Louis XIV (Päikesekuningas)",
+    "years": "1638–1715",
+    "role": "Prantsusmaa kuningas (Bourbonide dünastia)",
+    "description": "Euroopa absolutismi tuntuim sümbol. Valitses Prantsusmaad 72 aastat. Ehitas Versailles' lossi ja tsentraliseeris kogu riigivõimu oma kätesse ('Riik – see olen mina!').",
+    "quote": "L'État, c'est moi! (Riik – see olen mina!)",
+    "tag": "Absolutism"
+  },
+  {
+    "name": "Karl XII",
+    "years": "1682–1718",
+    "role": "Rootsi kuningas ja väejuht",
+    "description": "Andekas ja kartmatu noor monarh, kes saavutas 18-aastaselt 1700. a Narva all lumetormis hiilgava võidu Vene armee üle. Hukkus 1718 Norras Fredriksteni piiramisel.",
+    "quote": "Ma olen otsustanud mitte kunagi alustada ebaõiglast sõda, kuid mitte kunagi lõpetada õiglast sõda muidu kui vaenlase alistamisega.",
+    "tag": "Põhjasõda"
+  },
+  {
+    "name": "Peeter I Suur",
+    "years": "1672–1725",
+    "role": "Venemaa tsaar ja esimene keiser",
+    "description": "Moderniseeris Venemaa Euroopa eeskujul: rajas Peterburi linna, ehitas laevastiku ja võitis Põhjasõja (Poltava 1709). Liitis Eesti ja Liivimaa Venemaaga ning rajas Kadrioru lossi.",
+    "quote": "Meil on tarvis Euroopat mõneks aastakümneks, pärast seda võime talle selja pöörata.",
+    "tag": "Põhjasõda"
+  },
+  {
+    "name": "Charles de Montesquieu",
+    "years": "1689–1755",
+    "role": "Prantsuse valgustusfilosoof ja jurist",
+    "description": "Tänapäevase riigiõiguse isa. Teoses 'Seaduste vaim' (1748) sõnastas võimude lahususe teooria (seadusandlik, täidesaatev ja kohtuvõim peavad üksteist kontrollima ja tasakaalustama).",
+    "quote": "Et võimu ei kuritarvitataks, peab asjade korraldus olema selline, et võim pidurdab võimu.",
+    "tag": "Valgustus"
+  },
+  {
+    "name": "Voltaire (François-Marie Arouet)",
+    "years": "1694–1778",
+    "role": "Prantsuse kirjanik ja valgustaja",
+    "description": "Valgustusajastu vaimne juht. Võitles kiriku sallimatuse, ebausu ja ebaõigluse vastu ('Écrasez l'infâme!'). Kaitses väsimatult sõnavabadust ja mõttevabadust.",
+    "quote": "Ma ei ole sinu arvamusega nõus, kuid ma olen valmis surema selle nimel, et sul oleks õigus seda välja öelda.",
+    "tag": "Valgustus"
+  },
+  {
+    "name": "Jean-Jacques Rousseau",
+    "years": "1712–1778",
+    "role": "Genfist pärit filosoof ja kirjanik",
+    "description": "Otsedemokraatia ja rahvasuveräänsuse prohvet. Teoses 'Ühiskondlikust lepingust' (1762) kuulutas, et võim peab tuginema rahva üldisele tahtele. Hüüdis: 'Tagasi looduse juurde!'.",
+    "quote": "Inimene on sündinud vabana, ja ometi on ta kõikjal ahelates.",
+    "tag": "Valgustus"
+  },
+  {
+    "name": "Friedrich II Suur",
+    "years": "1712–1786",
+    "role": "Preisimaa kuningas",
+    "description": "Valgustatud monarhia klassikaline näide. Sõbrunes Voltaire'iga, keelas kohtuliku piinamise, kehtestas ususallivuse ja edendas kartulikasvatust, tehes Preisimaast Euroopa suurvõimu.",
+    "quote": "Valitseja on oma riigi esimene teener.",
+    "tag": "Valgustatud absolutism"
+  },
+  {
+    "name": "George Washington",
+    "years": "1732–1799",
+    "role": "USA esimene president ja vabadussõja ülemjuhataja",
+    "description": "Juhtis Kontinentaalarmee võidule Briti impeeriumi üle (Yorktown 1781) ja oli USA põhiseaduse konvendi eesistuja. Teda nimetatakse 'Ameerika Isaks'.",
+    "quote": "Vabadus, kui see kord hakkab juurduma, on kiirelt kasvav taim.",
+    "tag": "Ameerika vabadussõda"
+  },
+  {
+    "name": "Thomas Jefferson",
+    "years": "1743–1826",
+    "role": "USA 3. president ja Iseseisvusdeklaratsiooni autor",
+    "description": "Kirjutas 1776 Iseseisvusdeklaratsiooni, sõnastades inimkonna põhiõigused elule, vabadusele ja õnne poole püüdlemisele. Silmapaistev haritlane ja arhitekt.",
+    "quote": "Me peame neid tõdesid enesestmõistetavaks, et kõik inimesed on loodud võrdsetena...",
+    "tag": "Ameerika vabadussõda"
+  },
+  {
+    "name": "Louis XVI",
+    "years": "1754–1793",
+    "role": "Prantsusmaa viimane absolutistlik kuningas",
+    "description": "Heatahtlik, kuid nõrga iseloomuga monarh, kes ei suutnud riiki pankrotist päästa. Püüdis 1791 salaja Prantsusmaalt põgeneda. Mõisteti riigireetmises süüdi ja hukati 1793 giljotiinil.",
+    "quote": "Ma suren süütuna kõiges selles, milles mind süüdistatakse. Ma andestan neile, kes on minu surma põhjuseks.",
+    "tag": "Prantsuse revolutsioon"
+  },
+  {
+    "name": "Maximilien Robespierre",
+    "years": "1758–1794",
+    "role": "Jakobiinide juht ja Rahva Päästekomitee esimees",
+    "description": "'Ärakorrumpeerumatuks' hüütud advokaat Arras'st, kes uskus fanaatiliselt, et voorust saab kehtestada terroriga. Giljotineeris tuhandeid poliitilisi vastaseid, kuni langes ise sama saatuse ohvriks.",
+    "quote": "Terror ilma vooruseta on hävitav, voorus ilma terrorita on võimetu.",
+    "tag": "Prantsuse revolutsioon"
+  },
+  {
+    "name": "Napoleon Bonaparte (Napoleon I)",
+    "years": "1769–1821",
+    "role": "Prantsusmaa keiser ja väejuht",
+    "description": "Pööras pea peale kogu Euroopa. Purustas vastaste koalitsioonid Austerlitzi ja Jena all, andis välja Tsiviilkoodeksi. Pärast ebaõnnestunud 1812. a Venemaa kampaaniat ja Waterloo lahingut suri Saint Helena saarel.",
+    "quote": "Võimatu on sõna, mida leidub vaid lollide sõnaraamatus.",
+    "tag": "Napoleoni ajastu"
+  },
+  {
+    "name": "Klemens von Metternich",
+    "years": "1773–1859",
+    "role": "Austria riigikantsler ja diplomaat",
+    "description": "Viini kongressi (1814–1815) peaarhitekt. Lõi 'Metternichi süsteemi', mis toetus legitiimsusele ja suurriikide tasakaalule, surudes maha rahvuslikke ja liberaalseid liikumisi.",
+    "quote": "Kui Pariis aevastab, saab kogu Euroopa nohu.",
+    "tag": "Euroopa diplomaatia"
+  },
+  {
+    "name": "James Watt",
+    "years": "1736–1819",
+    "role": "Šoti insener ja leiutaja",
+    "description": "Täiustas universaalset aurumasinat, mis muutis vabrikutootmise võimalikuks ilma veevoolu olemasoluta. Tema auks on nimetatud võimsusühik vatt (W).",
+    "quote": "Ma ei mõtle millelegi muule kui sellele masinale.",
+    "tag": "Tööstuspööre"
+  },
+  {
+    "name": "Kristjan Jaak Peterson",
+    "years": "1801–1822",
+    "role": "Eesti luule ja rahvusliku ärkamise eelkäija",
+    "description": "Kõndis jalgsi Riia ja Tartu vahet ning õppis Tartu Ülikoolis. Kandis eesti talupojariideid ja kirjutas esimesed kunstiväärtuslikud eestikeelsed oodid. Tema auks tähistatakse 14. märtsil emakeelepäeva.",
+    "quote": "Kas siis selle maa keel laulutuules ei või taevani tõustes üles igavikku omale otsida?",
+    "tag": "Eesti kultuur"
+  }
+]

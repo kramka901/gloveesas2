@@ -1,0 +1,1058 @@
+[
+  {
+    "id": 1,
+    "title": "1. Peatükk: Päikesekuninga Louis XIV absolutism",
+    "period": "17. sajandi lõpp (Prantsusmaa)",
+    "role": "Prantsusmaa kuningriigi peanõunik ja rahandusminister (Colbert'i järglane)",
+    "description": "Prantsusmaa troonil särab Louis XIV, kes kuulutab: 'Riik – see olen mina!' (L'État, c'est moi). Kuningas valitseb ainuisikuliselt, ilma parlamenti kokku kutsumata. Sinu ülesanne on hoida tasakaalus riigikassa, aadli auahnus, armee võimsus ja lihtrahva toimetulek.",
+    "intro_lore": "Absolutism tähendab valitsemisvormi, kus monarhil on piiramatu võim. Samas nõuab luksuslik õukond Versailles's tohutuid summasid. Kuidas juhid riiki, et vältida mässe ja pankrotti?",
+    "events": [
+      {
+        "id": "e1_1",
+        "title": "Versailles' lossi laiendamine ja õukonnaelu",
+        "situation": "Kuningas Louis XIV nõuab riigikassast 20 miljonit liivrit, et ehitada Versailles' lossi uus Peegligalerii ja korraldada aadlile igapäevaseid balle. Samal ajal teatavad provintside kubernerid viljaikaldusest ja talupoegade näljast.",
+        "choices": [
+          {
+            "text": "Ehitada loss lõpuni! Meelitada aadelkond Versailles'sse elama, et nad ei saaks provintsides mässu sepitseda.",
+            "gold": -25,
+            "army": 10,
+            "people": -20,
+            "culture": 25,
+            "consequence": "Versailles särab kullas ja aadlikud võistlevad kuningale öösärgi ulatamise au nimel. Aadel on taltsutatud, kuid vaene talurahvas kiristab näljast hambaid.",
+            "historical_fact": "Louis XIV koondas kõrgema aadli Versailles' lossi range õukonnaetiketi alla. Aadlikud muutusid kuninga armust sõltuvateks õukondlasteks, mis hoidis ära uued mässud (Fronde)."
+          },
+          {
+            "text": "Keelduda ehitusest ja suunata raha uute manufaktuuride rajamisse ning merekaubandusse (merkantilism).",
+            "gold": 25,
+            "army": -5,
+            "people": 15,
+            "culture": 10,
+            "consequence": "Prantsuse klaasi-, siidi- ja gobeläänitöökojad toovad riiki tohutult kulda. Kuningas on küll veidi solvunud, kuid riigikassa kosub jõudsalt.",
+            "historical_fact": "Rahandusminister Jean-Baptiste Colbert arendas merkantismi – majanduspoliitikat, kus soodustati eksporti ja piirati importi kõrgete tollidega, et rikkus jääks riiki."
+          },
+          {
+            "text": "Vähendada talurahva pearahamaksu (taille) ja jagada riiklikest aitadest tasuta vilja.",
+            "gold": -15,
+            "army": -10,
+            "people": 35,
+            "culture": 5,
+            "consequence": "Talupojad õnnistavad kuningat ja nälg taandub. Kuid Versailles' õukond pomiseb nördinult, sest balle tuleb pidada tagasihoidlikumalt.",
+            "historical_fact": "Prantsusmaal kandis kogu maksukoormust Kolmas seisus (talupojad ja kodanikud). Esimene (vaimulikud) ja teine seisus (aadel) olid maamaksudest vabastatud."
+          }
+        ]
+      },
+      {
+        "id": "e1_2",
+        "title": "Usuküsimus: Nantes'i edikti tühistamine (1685)",
+        "situation": "Katoliiklikud piiskopid nõuavad Nantes'i edikti tühistamist: protestantidest hugenotid tuleb pöörata katoliiklusse või maalt välja saata. Hugenottide seas on aga riigi parimad kellassepad, pankurid ja tekstiilimeistrid.",
+        "choices": [
+          {
+            "text": "Tühistada edikt: 'Üks kuningas, üks seadus, üks usk!' Keelata protestantlikud jumalateenistused.",
+            "gold": -20,
+            "army": 15,
+            "people": -20,
+            "culture": -15,
+            "consequence": "Üle 200 000 oskusliku hugenoti põgeneb salaja Hollandisse, Inglismaale ja Preisimaale, viies kaasa tohutud rikkused ja oskusteabe.",
+            "historical_fact": "1685. a tühistas Louis XIV Fontainebleau ediktiga Nantes'i edikti. Hugenottide massiline väljaränne andis ränga hoobi Prantsuse majandusele ja tugevdas tema konkurente."
+          },
+          {
+            "text": "Säilitada usuline tolerantsus. Riigi majanduslik edu on tähtsam kui kiriku range dogma.",
+            "gold": 20,
+            "army": -5,
+            "people": 15,
+            "culture": 20,
+            "consequence": "Oskustöölised jäävad Prantsusmaale, kaubandus õitseb. Rooma paavst ja fanaatilised aadlikud on maruvihased, kuid riik teenib maksutulu.",
+            "historical_fact": "Nantes'i edikti oli 1598. aastal kehtestanud Henri IV, et lõpetada verised ususõjad. Tolerantsus tagas Prantsusmaale peaaegu sajandiks stabiilse majandusarengu."
+          },
+          {
+            "text": "Kehtestada hugenottidele kahekordsed maksud, kuid lubada neil vaikselt edasi tegutseda.",
+            "gold": 15,
+            "army": 5,
+            "people": -10,
+            "culture": -5,
+            "consequence": "Kompromiss toob kiiresti riigikassasse kulda, kuid tekitab usaldamatust. Mõned meistrid lahkuvad, teised maksavad hambaid kiristades.",
+            "historical_fact": "Merkantilistid mõistsid hästi kapitali ja oskuste väärtust, mistõttu püüti usuvähemusi sageli maksustada, mitte kohe riigist välja saata."
+          }
+        ]
+      },
+      {
+        "id": "e1_3",
+        "title": "Armee reform ja kindlusarhitektuur",
+        "situation": "Naaberriigid pelgavad Prantsusmaa domineerimist. Insener Vauban esitab plaani rajada piiridele kümneid tähekujulisi bastionkindlusi ja luua Euroopa moodsaim alaline sõjavägi.",
+        "choices": [
+          {
+            "text": "Ehitada Vaubani kindlustuste vöönd ja võtta relvastusse ühtne vormiriietus ning tääkpüssid.",
+            "gold": -25,
+            "army": 35,
+            "people": -5,
+            "culture": 15,
+            "consequence": "Prantsuse piirid muutuvad läbipääsmatuks 'raudseks vööks'. Prantsuse armee on Euroopa kardetuim sõjamasin.",
+            "historical_fact": "Sébastien de Vauban oli geniaalne militaararhitekt, kelle ehitatud tähekujulised kindlused pidasid suurtükitulele vastu ja muutsid Prantsusmaa piirid vallutamatuks."
+          },
+          {
+            "text": "Kulutada raha diplomaatiale ja sõlmida liidulepingud, vältides kalleid sõjalisi kulutusi.",
+            "gold": 15,
+            "army": -15,
+            "people": 15,
+            "culture": 10,
+            "consequence": "Säästad miljoneid liivreid ja naabrid ei tunne end ohustatuna. Kuid kindralid nurisevad nõrga valmisoleku üle.",
+            "historical_fact": "Louis XIV pidas oma pika valitsusaja jooksul lakkamatuid sõdu (Devolutsioonisõda, Hollandi sõda, Hispaania pärilussõda), mis viisid riigi äärmuslikku võlgadesse."
+          },
+          {
+            "text": "Algatada kohe ennetav vallutussõda Reini jõe aladel, et haarata looduslikud piirid.",
+            "gold": -30,
+            "army": 20,
+            "people": -25,
+            "culture": -10,
+            "consequence": "Vallutad uusi maid, kuid Inglismaa, Holland ja Austria moodustavad Prantsusmaa vastu koalitsiooni. Sõda kurnab riiki.",
+            "historical_fact": "Pidevad sõjad tekitasid nn Suure Alliansi (Augsburgi liiga) Prantsusmaa vastu, mis tõi kaasa Euroopa esimese tõelise jõudude tasakaalu konflikti."
+          }
+        ]
+      },
+      {
+        "id": "e1_4",
+        "title": "Kuninglik pärand ja riigivõlg",
+        "situation": "Louis XIV elupäevad hakkavad lõppema. Kuningas kutsub sind oma surivoodi juurde ja küsib: 'Mida jätame mu 5-aastasele pojapojapojale Louis XV-le?' Riigikassa on võlgades.",
+        "choices": [
+          {
+            "text": "Soovitada tulevasele kuningale: 'Ärge matkige minu armastust ehitiste ja sõdade vastu, vaid kergendage rahva koormat.'",
+            "gold": 10,
+            "army": -10,
+            "people": 30,
+            "culture": 20,
+            "consequence": "Ajalugu mäletab seda kui Päikesekuninga viimast kahetsust. Rahvas saab lootust uueks ajastuks.",
+            "historical_fact": "Surivoodil 1715. aastal ütles Louis XIV tõepoolest oma väikesele järeltulijale: 'Püüdke hoida rahu naabritega. Mina olen sõda liiga palju armastanud; ärge jäljendage mind selles, ega ka minu liigsetes kulutustes.'"
+          },
+          {
+            "text": "Müüa uusi riigiameteid ja aadlitiitleid rikkale linnakodanlusele, et kassa kohe täita.",
+            "gold": 35,
+            "army": 0,
+            "people": -15,
+            "culture": -10,
+            "consequence": "Kassa on täis, kuid riigiaparaat korrumpeerub ning tekib nn 'mantliaadel', keda vana mõõga-aadel põlgab.",
+            "historical_fact": "Ametite ja aadlitiitlite müük (paulette) oli Prantsuse kroonile lihtne viis raha teenida, kuid see tegi riigivalitsemise kohmakaks ja tekitas sotsiaalseid pingeid."
+          },
+          {
+            "text": "Võtta tohutuid laene Genfi ja Amsterdami pankuritelt, varjates tegelikku finantsauku.",
+            "gold": 25,
+            "army": 5,
+            "people": -20,
+            "culture": -5,
+            "consequence": "Ajutine kergendus lükkab probleemi edasi järgmistele põlvkondadele – tulemuseks on Prantsuse revolutsiooni eelne pankrot.",
+            "historical_fact": "Prantsusmaa laenuintressid kasvasid 18. sajandil nii suureks, et poole riigi eelarvest neelasid vanade võlgade intressid, mis viis lõpuks 1789. a revolutsioonini."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "2. Peatükk: Põhjasõda ja Eesti saatus (1700–1721)",
+    "period": "1700–1721 (Läänemere ruum, Eesti- ja Liivimaa)",
+    "role": "Liivimaa ja Eestimaa maapäeva eesistuja ning kindralkuberneri nõunik",
+    "description": "Rootsi suurriik seisab vastamisi Vene tsaaririigi, Taani ja Poola-Saksi liiduga. Sõjatander laastab Eesti alasid. Pead otsustama, kuidas kaitsta maad, mida teha talurahvaga ning millistel tingimustel sõlmida kokkuleppeid Rootsi ja Vene võimudega.",
+    "intro_lore": "Põhjasõda muutis põhjalikult Läänemere geopoliitikat. Eesti alad langesid Peeter I võimu alla. Balti aadel suutis aga välja kaubelda omavalitsuse – Balti erikorra.",
+    "events": [
+      {
+        "id": "e2_1",
+        "title": "1700: Narva lahing ja Karl XII saabumine",
+        "situation": "Peeter I piirab 35 000 mehega Narva linna. 18-aastane Rootsi kuningas Karl XII maabub Pärnus ja marssib 10 000 mehega Narva suunas. Õues möllab lumetorm.",
+        "choices": [
+          {
+            "text": "Rünnata lumetormi varjus otse Vene kindlustatud laagri nõrgimat tiiba!",
+            "gold": -10,
+            "army": 35,
+            "people": 10,
+            "culture": 15,
+            "consequence": "Lumi puhub venelastele näkku. Rootsi väed löövad Vene armee puruks ja võtavad tuhandeid vange. Karl XII on Euroopa kuulsaim väejuht!",
+            "historical_fact": "1700. a Narva lahingus alistas Karl XII lumetormi toel Vene armee. Kuid selle asemel et Venemaad lõplikult murda, suundus Karl XII Poola, andes Peetrile aega reformideks."
+          },
+          {
+            "text": "Jääda kaitsele ja rajada tugevad kaitseliinid Narva jõe taha, vältides laubakokkupõrget.",
+            "gold": 5,
+            "army": -5,
+            "people": 5,
+            "culture": 5,
+            "consequence": "Väldid suuri kaotusi, kuid Vene väed suudavad Narva ümberpiiramist jätkata ja Karl XII peab taanduma.",
+            "historical_fact": "Rootsi strateegia toetus rünnakule ja agressiivsele manööverdamisele, sest Rootsil nappis inimressursse pikaks kurnamissõjaks."
+          },
+          {
+            "text": "Soovitada Karl XII-l marssida otse Moskva peale ja sundida Peeter I kohe alistuma.",
+            "gold": -20,
+            "army": 15,
+            "people": -15,
+            "culture": 0,
+            "consequence": "Julge plaan, kuid logistika ja talv kurnavad vägesid enneaegselt. Õnneks Narva all saavutatakse siiski võit.",
+            "historical_fact": "Karl XII lükkas Venemaa ründamise edasi 1708. aastasse, mis lõppes Poltava katastroofiga 1709. aastal Ukraina suves ja talvekülmas."
+          }
+        ]
+      },
+      {
+        "id": "e2_2",
+        "title": "1708: Laastav sõda ja Šeremetjevi rüüsteretked",
+        "situation": "Kindralfeldmarssal Šeremetjev teatab Peeter I-le: 'Liivimaal ja Eestimaal ei ole enam midagi rikkuda, kõik on laastatud.' Mõisad põlevad ja talupojad põgenevad soodesse.",
+        "choices": [
+          {
+            "text": "Organiseerida talupoegadest ja mõisasulastest sissisalgad, et peita vili metsadesse ja rünnata vaenlase tagalat.",
+            "gold": -10,
+            "army": 15,
+            "people": 25,
+            "culture": 10,
+            "consequence": "Eesti talupojad kaitsevad oma kodusid visalt. Viljavarud päästetakse ja rüüstajad kannavad kaotusi.",
+            "historical_fact": "Põhjasõja ajal tegutsesid Lõuna- ja Põhja-Eestis kohalikud maamiilitsad ja sissisalgad, kes kaitsesid oma külasid Vene ratsaväe (kalmõkkide ja kasakate) rüüste eest."
+          },
+          {
+            "text": "Koondada kõik toiduvarud ja inimesed Tallinna ja Pärnu kindlustesse, jättes maapiirkonnad saatuse hooleks.",
+            "gold": -15,
+            "army": 10,
+            "people": -30,
+            "culture": -10,
+            "consequence": "Linnad peavad vastu, kuid maapiirkondades valitseb nälg ja põletatud maa. Külad tühjenevad.",
+            "historical_fact": "Rootsi võimud rakendasid kaitsestrateegiat, jättes maa tühjaks, et sissetungijail poleks toitu. See tõi aga kohalikele talupoegadele kohutavaid kannatusi."
+          },
+          {
+            "text": "Saata saadikud Peeter I juurde pakkuma lunaraha ja kohalikku vaherahu.",
+            "gold": -25,
+            "army": -15,
+            "people": 15,
+            "culture": 0,
+            "consequence": "Raha säästab mitu kihelkonda leekidest, kuid Rootsi kindralkuberner süüdistab sind riigireetmises.",
+            "historical_fact": "Baltisaksa aadel oli lojaalsuskriisis: Rootsi 'mõisate reduktsioon' oli neilt maad võtnud, mistõttu paljud aadlikud (nt Patkul) eelistasid kokkulepet Venemaaga."
+          }
+        ]
+      },
+      {
+        "id": "e2_3",
+        "title": "1710: Must Surm ja Tallinna kapituleerumine",
+        "situation": "Eestisse jõuab laastav katkuepideemia. Tallinn on Vene piiramisrõngas, joogivesi on reostatud ja tuhanded surevad iga päev. Linna garnison ja rüütelkond arutavad alistumist.",
+        "choices": [
+          {
+            "text": "Allkirjastada Harku kapitulatsiooniakt: loovutada Tallinn Peeter I-le tingimusel, et säilivad luterlus, saksa keel ja rüütelkonna eesõigused (Balti erikord)!",
+            "gold": 15,
+            "army": -20,
+            "people": 20,
+            "culture": 20,
+            "consequence": "Relvad vaikivad. Katk taandub aegamisi. Tsaar kinnitab rüütelkonnale privileegid ja tagastab reduktsiooniaegsed mõisad.",
+            "historical_fact": "1710. a septembris sõlmiti Harku mõisas kapitulatsiooniaktid. Peeter I kinnitas balti aadlile ja linnadele laialdase omavalitsuse – see pani aluse Balti erikorrale."
+          },
+          {
+            "text": "Võidelda viimse veretilgani! Rootsi kuningas ei andesta alistumist!",
+            "gold": -30,
+            "army": -35,
+            "people": -40,
+            "culture": -20,
+            "consequence": "Katk ja suurtükituli hävitavad peaaegu kogu linnaelanikkonna. Tallinn langeb tormijooksuga ja rüüstatakse armutult.",
+            "historical_fact": "1710. aasta katk tappis Eestis üle poole elanikkonnast. Mõnes kihelkonnas jäi ellu vaid kümmekond inimest. Vastupanu jätkamine oleks tähendanud täielikku hävingut."
+          },
+          {
+            "text": "Alistuda, kuid nõuda tsaarilt lisatingimusena talurahva pärisorjuse leevendamist ja koolide säilitamist.",
+            "gold": 5,
+            "army": -10,
+            "people": 35,
+            "culture": 25,
+            "consequence": "Peeter I nõustub osaliselt, et rahustada provintsi. Mõisnikud on küll pahased, kuid eesti maarahva saatus saab lootuskiire.",
+            "historical_fact": "Reaalsuses talurahvast Harku lepingus ei kaitstud. Vastupidi: aadli võim talupoegade üle muutus 18. sajandil piiramatuks (Roséni deklaratsioon 1739 kuulutas talupojad pärisorjadeks)."
+          }
+        ]
+      },
+      {
+        "id": "e2_4",
+        "title": "1721: Uusikaupunki rahu ja ülesehitus",
+        "situation": "Sõlmitakse Uusikaupunki rahuleping. Rootsi loovutab Venemaale Liivimaa, Eestimaa, Ingerimaa ja osa Karjalast. Peeter I rajab Tallinna Kadrioru lossi ja parki.",
+        "choices": [
+          {
+            "text": "Toetada Peeter I laevastikubaasi ja sadamate laiendamist Tallinnas ning Kadrioru lossi ehitust.",
+            "gold": 20,
+            "army": 25,
+            "people": -5,
+            "culture": 25,
+            "consequence": "Tallinnast saab Vene Balti mere laevastiku tugipunkt. Kadrioru loss särab barokkses ilus.",
+            "historical_fact": "Peeter I rajas Tallinna Kadrioru lossi oma abikaasa Katariina I auks (arhitekt Niccolo Michetti). Tallinnast sai Venemaa peamine sõjasadam Läänemerel."
+          },
+          {
+            "text": "Suunata jõupingutused talurahva koolihariduse taastamisele ja eestikeelse täispiibli trükkimisele.",
+            "gold": -10,
+            "army": -5,
+            "people": 30,
+            "culture": 35,
+            "consequence": "Kirikuõpetajad ja hernhuutlased (vennastekogudus) hakkavad maarahvast kirjaoskust õpetama. Vaimupimedus taandub.",
+            "historical_fact": "Põhjasõja järel levis Eestis vennastekoguduse (hernhuutlaste) liikumine, mis õpetas talupoegi lugema ja laulma. 1739. a ilmus Anton thor Helle tõlkes esimene eestikeelne Piibel."
+          },
+          {
+            "text": "Taastada mõisnike absoluutne kodukariõigus ja karmistada teoorjust põllumaade kiireks taasharimiseks.",
+            "gold": 25,
+            "army": 5,
+            "people": -30,
+            "culture": -15,
+            "consequence": "Põllud toovad taas saaki ja mõisnikud rikastuvad viljaekspordist, kuid eesti talupoeg langeb rängimasse pärisorjusesse.",
+            "historical_fact": "18. sajand oli Eesti talurahva ajaloos üks tumedamaid perioode. Mõisnikud võisid talupoegi müüa, vahetada ja ihunuhtlusega karistada ilma kohtuta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "3. Peatükk: Valgustusajastu vaim ja filosoofid",
+    "period": "18. sajandi keskpaik (Pariis, Berliin, Peterburi)",
+    "role": "Entsüklopeedia toimetaja ja valgustatud monarhide filosoofiline nõunik",
+    "description": "Euroopat raputab intellektuaalne ärkamine – Valgustusajastu (valguse toomine mõistuse ja hariduse abil pimedusse). Filosoofid kritiseerivad kiriku võimutsemist, seisuslikku ühiskonda ja türanniat. Kas suudad ideed ellu viia ilma, et kuninglik tsensuur sind vangi heidaks?",
+    "intro_lore": "Valgustus kuulutas: 'Sapere aude!' – söanda olla tark, kasuta oma mõistust! Montesquieu, Voltaire ja Rousseau sõnastasid vabaduse, tolerantsuse ja võimude lahususe põhimõtted, mis on tänapäeva lääne ühiskonna vundamendiks.",
+    "events": [
+      {
+        "id": "e3_1",
+        "title": "Montesquieu ja võimude lahususe teooria (1748)",
+        "situation": "Charles de Montesquieu esitab oma teoses 'Seaduste vaim' revolutsioonilise idee: türannia vältimiseks tuleb riigivõim jaotada kolmeks sõltumatuks haruks.",
+        "choices": [
+          {
+            "text": "Toetada täielikult võimude lahusust: seadusandlik võim parlamendile, täidesaatev valitsusele, kohtuvõim sõltumatutele kohtutele!",
+            "gold": -5,
+            "army": -10,
+            "people": 30,
+            "culture": 35,
+            "consequence": "See idee saab hiljem USA põhiseaduse ja kõigi kaasaegsete demokraatiate alussambaks. Monarhid kardavad võimust ilma jääda.",
+            "historical_fact": "Montesquieu võimude lahususe teooria kohaselt peavad seadusandlik, täidesaatev ja kohtuvõim olema eraldatud ning tasakaalustama üksteist, et tagada kodanikuvabadused."
+          },
+          {
+            "text": "Lükata idee tagasi: tugev kord nõuab, et monarh teeb seadused, juhib riiki ja mõistab ka kohut.",
+            "gold": 10,
+            "army": 20,
+            "people": -20,
+            "culture": -25,
+            "consequence": "Traditsiooniline absolutism säilib, kuid haritlaskond koondub salajastesse klubidesse ja vabamüürlaste loozidesse.",
+            "historical_fact": "Absolutistlikes riikides (Prantsusmaa, Venemaa) kuulus monarhile nii seaduste andmine kui kõrgeim kohtuvõim. See viis sageli meelevaldsete arreteerimisteni (lettres de cachet)."
+          },
+          {
+            "text": "Pakkuda kompromissi: luua kuninga juurde nõuandev juristide kogu, kuid jätta viimane sõna kroonile.",
+            "gold": 5,
+            "army": 5,
+            "people": 5,
+            "culture": 10,
+            "consequence": "Mõõdukas reform rahustab juriste, kuid ei lahenda põhimõttelist võimuvõitlust.",
+            "historical_fact": "Prantsusmaal püüdsid piirkondlikud kohtukojad (parlemendid) aeg-ajalt kuninga edikte blokeerida, kuid monarh sai alati oma tahte peale suruda istungil 'lit de justice'."
+          }
+        ]
+      },
+      {
+        "id": "e3_2",
+        "title": "Voltaire ja võitlus usulise tagakiusamisega",
+        "situation": "Toulouse'is hukatakse protestant Jean Calas ebaõiglaselt, sest fanaatiline kohus süüdistab teda poja tapmises usulistel põhjustel. Voltaire kutsub üles võitlusele ebausu ja fanaatilisuse vastu hüüdlausega: 'Purustage see alatu!' (Écrasez l'infâme!).",
+        "choices": [
+          {
+            "text": "Algatada üleeuroopaline kampaania Calas' maine postuumseks rehabiliteerimiseks ja nõuda ususallivust!",
+            "gold": -10,
+            "army": -5,
+            "people": 25,
+            "culture": 40,
+            "consequence": "Kohtuotsus tühistatakse! Voltaire saavutab moraalse triumfi ja avalik arvamus pöördub inkvisitsioonilike meetodite vastu.",
+            "historical_fact": "Voltaire pühendas aastaid Jean Calas' perekonna kaitsmisele. Tema 'Traktaat tolerantsusest' (1763) pani aluse tänapäevasele süütuse presumptsioonile ja usuvabadusele."
+          },
+          {
+            "text": "Keelata Voltaire'i pamfletid ja saata kirjanik pagendusse, et kirikut mitte ärritada.",
+            "gold": 5,
+            "army": 10,
+            "people": -15,
+            "culture": -30,
+            "consequence": "Voltaire põgeneb Šveitsi piiri äärde Ferney'sse ja jätkab sealt veelgi teravamate satiiride saatmist, naeruvääristades tsensoreid.",
+            "historical_fact": "Voltaire veetis aastaid eksiilis (Inglismaal, Preisimaal Friedrich II õukonnas ja Ferney's). Teda loeti kogu Euroopas ja tema terav sulg oli võimsam kui politsei."
+          },
+          {
+            "text": "Propageerida deismi: Jumal lõi maailma nagu kellassepp kella, kuid ei sekku igapäevaellu.",
+            "gold": 0,
+            "army": 0,
+            "people": 15,
+            "culture": 20,
+            "consequence": "Paljud valgustajad võtavad omaks mõistuspärase religiooni ilma kiriklike dogmade ja imedeta.",
+            "historical_fact": "Enamik valgustusfilosoofe polnud ateistid, vaid deistid – nad uskusid, et Jumal on Looja, kuid loodusseadusi ja ühiskonda juhib inimese terve mõistus."
+          }
+        ]
+      },
+      {
+        "id": "e3_3",
+        "title": "Diderot' ja d'Alembert'i 'Entsüklopeedia' (1751–1772)",
+        "situation": "Denis Diderot kogub teadmisi 28-köitelisse 'Entsüklopeediasse'. Kirik ja kuninglik tsensor nõuavad selle keelamist, sest see selgitab vabalt käsitööd, anatoomiat, teadust ja kritiseerib türanniat.",
+        "choices": [
+          {
+            "text": "Toetada salaja Entsüklopeedia trükkimist ja levitamist üle kogu Euroopa!",
+            "gold": -15,
+            "army": -5,
+            "people": 25,
+            "culture": 45,
+            "consequence": "Entsüklopeediast saab Valgustuse tähtsaim teos. Tuhanded lugejad õpivad tundma mehaanikat, teadust ja inimõigusi.",
+            "historical_fact": "Diderot' 'Encyclopédie' oli sajandi suurim kirjastusprojekt. Vaatamata tsensuuri korduvatele keeldudele toetas seda salaja isegi kuninga soosik markiis de Pompadour."
+          },
+          {
+            "text": "Põletada tiraaž ja heita autorid Bastille' vanglasse.",
+            "gold": 5,
+            "army": 10,
+            "people": -25,
+            "culture": -40,
+            "consequence": "Teaduse areng Prantsusmaal seiskub. Haritud kodanikkond vihastab ja hakkab riigikorda avalikult vihkama.",
+            "historical_fact": "Mõttevabaduse lämmatamine Prantsusmaal tekitas plahvatusohtliku meeleolu, mis 1789. aastal purskus välja revolutsioonina."
+          },
+          {
+            "text": "Müüa trükiõigused Venemaa keisrinnale Katariina II-le, kes pakub Diderot'le toetust.",
+            "gold": 30,
+            "army": 0,
+            "people": 5,
+            "culture": 25,
+            "consequence": "Kassa saab täiendust ja Diderot reisib Peterburi. Katariina II esitleb end Euroopale kui 'valgustatud valitsejannat'.",
+            "historical_fact": "Katariina II ostis Diderot' raamatukogu ja maksis talle eluaegset palka, et näidata end valgustatud monarhina. Tegelikkuses ta pärisorjust Venemaal ei kaotanud."
+          }
+        ]
+      },
+      {
+        "id": "e3_4",
+        "title": "Valgustatud absolutism: Preisimaa Friedrich II Suur",
+        "situation": "Preisimaa kuningas Friedrich II deklareerib end 'riigi esimeseks teenriks'. Ta mängib flööti, suhtleb Voltaire'iga ja tahab moderniseerida oma riiki.",
+        "choices": [
+          {
+            "text": "Kehtestada usuvabadus ('Minu riigis saagu igaüks omal viisil õndsaks'), keelata piinamised kohtus ja kohustada talupoegi kartuleid kasvatama!",
+            "gold": 15,
+            "army": 20,
+            "people": 25,
+            "culture": 30,
+            "consequence": "Preisimaa majandus tugevneb. Kartul päästab rahva näljahädadest ja Preisimaast saab Euroopa juhtiv suurriik.",
+            "historical_fact": "Friedrich II keelustas piinamise, kehtestas laialdase ususallivuse ja edendas nn 'kartulikäskudega' kartulikasvatust. Ta nimetas end 'riigi esimeseks teenriks'."
+          },
+          {
+            "text": "Kaotada aadli privileegid ja vabastada talupojad pärisorjusest täielikult.",
+            "gold": -10,
+            "army": -25,
+            "people": 40,
+            "culture": 20,
+            "consequence": "Preisi junkrud (aadlikud) tõstavad mässu ja keelduvad ohvitseridena armees teenimast. Riik satub kriisi.",
+            "historical_fact": "Isegi valgustatud monarhid ei julgenud pärisorjust täielikult kaotada, sest nende võim ja armee toetusid aadlikele (junkrutele Preisimaal, rüütelkonnale Baltikumis)."
+          },
+          {
+            "text": "Keskenduda eranditult armee drillile ja Sileesia vallutamisele Austria käest.",
+            "gold": -20,
+            "army": 40,
+            "people": -10,
+            "culture": -10,
+            "consequence": "Preisimaast saab hiiglaslik kasarm. Vallutad viljaka Sileesia, kuid rahvas ägab range sõjaväelise distsipliini all.",
+            "historical_fact": "Friedrich II ühendas filosoofia militarismiga. Sileesia vallutamine 1740 tõi kaasa pikaajalised sõjad (Austria pärilussõda, Seitsmeaastane sõda)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "4. Peatükk: Ameerika vabadussõda ja vabariigi sünd",
+    "period": "1773–1783 (Põhja-Ameerika 13 kolooniat)",
+    "role": "Kontinentaalkongressi saadik ja kindral George Washingtoni staabiohvitser",
+    "description": "Suurbritannia koormab oma 13 Ameerika kolooniat üha uute maksudega (tempelmaks, teetoll), keelates asunikel oma esindajaid Londoni parlamenti valida. Hüüdlause 'Ei mingeid makse ilma esinduseta!' (No taxation without representation!) sütitab vabadusleegi.",
+    "intro_lore": "Ameerika iseseisvussõda oli esimene kord, kus Valgustusfilosoofia põhimõtted rakendati uue riigi loomisel. 1776. aasta Iseseisvusdeklaratsioon ja George Washingtoni juhtimine lõid esimese kaasaegse demokraatliku vabariigi.",
+    "events": [
+      {
+        "id": "e4_1",
+        "title": "1773: Bostoni teejoomine (Boston Tea Party)",
+        "situation": "Bostoni sadamasse saabuvad Briti Ida-India Kompanii teelaevad, millele kuningas George III on kehtestanud monopoolse maksu. Salajane rühmitus 'Vabaduse Pojad' koguneb sadamakail.",
+        "choices": [
+          {
+            "text": "Riietuda indiaanlasteks, ronida öösel laevadele ja visata 342 kasti teed vette!",
+            "gold": -10,
+            "army": 10,
+            "people": 30,
+            "culture": 20,
+            "consequence": "Tee värvib Bostoni lahe pruuniks! Kolooniad ühinevad vaimustuses, kuid London kehtestab karistusseadused ja saadab väed.",
+            "historical_fact": "16. detsembril 1773 toimunud Bostoni teejoomine oli vastuhakk Inglise teemaksule. See oli vahetuks ajendiks Ameerika iseseisvussõja puhkemisele."
+          },
+          {
+            "text": "Maksta teemaks ära ja esitada Briti parlamendile rahumeelne petitsioon.",
+            "gold": -5,
+            "army": -15,
+            "people": -25,
+            "culture": -10,
+            "consequence": "Parlament viskab petitsiooni prügikasti ja kehtestab veelgi kõrgemad tollid. Asunikud peavad sind argpüksiks.",
+            "historical_fact": "Kuningas George III kuulutas ameeriklaste protestid mässuks ja keeldus läbirääkimistest, öeldes: 'Täringud on visatud, kolooniad peavad kas alistuma või võidutsema.'"
+          },
+          {
+            "text": "Korraldada kogu Briti kauba täielik boikott ja hakata jooma kohalikku taimeteed.",
+            "gold": 15,
+            "army": 5,
+            "people": 15,
+            "culture": 15,
+            "consequence": "Majanduslik surve sunnib mitmeid Briti kaupmehi protestima parlamendi vastu, kuid sõjalist konflikti see ei peata.",
+            "historical_fact": "Boikotid (Non-Importation Agreements) olid tõhusad, kuid Briti krooni jäik hoiak tegi relvastatud kokkupõrke vältimatuks."
+          }
+        ]
+      },
+      {
+        "id": "e4_2",
+        "title": "4. juuli 1776: Iseseisvusdeklaratsioon",
+        "situation": "Philadelphias koguneb Teine Kontinentaalkongress. Thomas Jefferson esitab deklaratsiooni kavandi. Allakirjutamine tähendab reetmist Briti kroonile – selle eest ootab poomissurm.",
+        "choices": [
+          {
+            "text": "Allkirjastada deklaratsioon: 'Kõik inimesed on loodud võrdsetena ja neil on võõrandamatud õigused elule, vabadusele ja õnne poole püüdlemisele!'",
+            "gold": -10,
+            "army": 20,
+            "people": 35,
+            "culture": 40,
+            "consequence": "Sünnib uus riik – Ameerika Ühendriigid (USA)! Kellad löövad ja vabadusvaim levib üle kogu maailma.",
+            "historical_fact": "4. juulil 1776 vastu võetud Iseseisvusdeklaratsioon (autor Thomas Jefferson) tugines John Locke'i ja valgustajate ideedele loomulikest inimõigustest."
+          },
+          {
+            "text": "Kustutada tekstist punkt orjanduse hukkamõistmise kohta, et lõunapoolsed kolooniad nõustuksid liituma.",
+            "gold": 15,
+            "army": 15,
+            "people": -10,
+            "culture": -15,
+            "consequence": "13 kolooniat ühinevad, kuid orjanduse probleem lükatakse tulevikku, mis viib 85 aastat hiljem verise kodusõjani.",
+            "historical_fact": "Jeffersoni esialgses mustandis kritiseeriti kuningat orjakaubanduse soosimise eest, kuid Georgia ja Lõuna-Carolina nõudmisel jäeti see punkt liidu säilitamiseks välja."
+          },
+          {
+            "text": "Oodata deklaratsiooniga, kuni Euroopast saabub sõjaline abi.",
+            "gold": 0,
+            "army": -15,
+            "people": -20,
+            "culture": -10,
+            "consequence": "Viivitamine jahutab revolutsioonilist indu ja Briti armee kindral Howe vallutab New Yorgi peaaegu vastupanuta.",
+            "historical_fact": "Iseseisvuse väljakuulutamine oli vajalik eeldus selleks, et Prantsusmaa ja Hispaania saaksid USA-d ametlikult tunnustada ja neile liitlasena appi tulla."
+          }
+        ]
+      },
+      {
+        "id": "e4_3",
+        "title": "1777–1778: Karm talv Valley Forge'is",
+        "situation": "George Washingtoni armee talvitub Valley Forge'is. Sõduritel puuduvad saapad, toiduks on vaid jahu ja vesi, levivad tüüfus ja külmumishaigused. Samal ajal saabub Preisimaalt parun von Steuben ja Prantsusmaalt noor markii de Lafayette.",
+        "choices": [
+          {
+            "text": "Panna parun von Steuben armeed euroopaliku distsipliiniga drillima ja saata Benjamin Franklin Pariisi liitu looma!",
+            "gold": -15,
+            "army": 35,
+            "people": 15,
+            "culture": 30,
+            "consequence": "Kaltsudes talupojavägi muutub professionaalseks armeeks. Benjamin Franklin võlub Pariisi ja Prantsusmaa kuulutab Inglismaale sõja!",
+            "historical_fact": "Friedrich Wilhelm von Steuben õpetas ameeriklastele lahingurivistust ja täägivõitlust. Prantsusmaa astus sõtta USA poolel, saates laevastiku, relvad ja laenud."
+          },
+          {
+            "text": "Lasta sõduritel minna talveks koju oma farmidesse ja kutsuda nad kevadel uuesti kokku.",
+            "gold": 10,
+            "army": -30,
+            "people": 10,
+            "culture": -10,
+            "consequence": "Paljud ei tule enam tagasi. Armee hajub ja Briti väed saavutavad Philadelphias kerge kontrolli.",
+            "historical_fact": "Washingtoni oskus hoida armeed koos äärmuslikes puudustes ja taganemistes oli Ameerika vabadussõja võidu võtmeks."
+          },
+          {
+            "text": "Konfiskeerida kohalikelt talunikelt vägisi toitu ja kariloomi armee toitmiseks.",
+            "gold": 5,
+            "army": 15,
+            "people": -30,
+            "culture": -15,
+            "consequence": "Sõdurid saavad kõhu täis, kuid kohalik elanikkond hakkab toetama Briti lojaliste (kuningale truid).",
+            "historical_fact": "Kontinentaalarmee püüdis vältida eraomandi rüüstamist, makstes tšekkidega, kuigi kongressi paberaha ('Continental') kaotas inflatsiooni tõttu peaaegu kogu väärtuse."
+          }
+        ]
+      },
+      {
+        "id": "e4_4",
+        "title": "1781: Yorktowni lahing ja 1783 Pariisi rahu",
+        "situation": "Briti kindral Cornwallis on oma 8000 mehega jäänud Virginia poolsaarel Yorktownis lõksu. Prantsuse admiral de Grasse blokeerib mere ja Washington sulgeb maismaa.",
+        "choices": [
+          {
+            "text": "Alustada koordineeritud suurtükituld ja täägirünnakut koos Prantsuse liitlastega!",
+            "gold": -10,
+            "army": 40,
+            "people": 30,
+            "culture": 25,
+            "consequence": "Cornwallis kapituleerub! Briti bänd mängib marssi 'Maailm pöörati pahupidi' (The World Turned Upside Down). Sõda on võidetud!",
+            "historical_fact": "Yorktowni piiramine 1781 murdis Briti valitsuse tahte sõda jätkata. 1783. a Pariisi rahuga tunnustas Suurbritannia USA iseseisvust."
+          },
+          {
+            "text": "Pakkuda brittidele võimalust väärikalt lahkuda laevadega ilma vangistamiseta.",
+            "gold": 5,
+            "army": 10,
+            "people": -10,
+            "culture": 10,
+            "consequence": "Väldid verevalamist, kuid Briti väed taanduvad New Yorki ja sõda venib veel aastateks.",
+            "historical_fact": "Tingimusteta kapitulatsioon Yorktownis oli poliitiliselt hädavajalik, et kukutada Londonis Lord Northi sõjameelne valitsus."
+          },
+          {
+            "text": "Nõuda kohe ka Kanada ja Kariibi mere saarte liitmist uue riigiga.",
+            "gold": -25,
+            "army": -15,
+            "people": 5,
+            "culture": -10,
+            "consequence": "Liigne ahnus viib liitlaste erimeelsusteni ja Prantsusmaa keeldub edasisest toetusest.",
+            "historical_fact": "USA rahuläbirääkijad (Franklin, Adams, Jay) olid pragmaatilised: nad kindlustasid piiri Mississipi jõeni, saavutades tohutu territooriumi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "5. Peatükk: Prantsuse Suur Revolutsioon (1789–1799)",
+    "period": "1789–1799 (Pariis, Prantsusmaa)",
+    "role": "Rahvuskogu saadik ja Rahva Päästekomitee liige",
+    "description": "Prantsusmaa on pankrotis, leivahinnad laes ja kolmas seisus nõuab õigusi. Puhkeb Prantsuse revolutsioon, mis pühib minema vana feodaalkorra, hävitab Bastille', hukkab kuninga ning viib läbi verise Jakobiinide terrori.",
+    "intro_lore": "Hüüdlause 'Vabadus, võrdsus, vendlus!' (Liberté, égalité, fraternité) kajas üle kogu mandri. Prantsuse revolutsioon lõi kaasaegse kodanikuühiskonna, kuid näitas ka, kui ohtlikuks võib muutuda kontrollimatu äärmuslus.",
+    "events": [
+      {
+        "id": "e5_1",
+        "title": "Mai–Juuni 1789: Generaalstaatide kokkukutsumine ja Pallimängusaali vanne",
+        "situation": "Louis XVI kutsub 175 aasta järel kokku Generaalstaadid. Esimene (vaimulikud) ja teine (aadel) seisus nõuavad hääletamist seisuste kaupa (2 häält 1 vastu). Kolmas seisus esindab 98% rahvast ja nõuab häälte lugemist pea järgi.",
+        "choices": [
+          {
+            "text": "Kuulutada end kogu rahvast esindavaks Rahvuskoguks ja anda Pallimängusaalis vanne mitte laiali minna enne põhiseaduse vastuvõtmist!",
+            "gold": 0,
+            "army": 5,
+            "people": 35,
+            "culture": 35,
+            "consequence": "Aadlikest ja vaimulikest reformimeelsed liituvad teiega. Kuninga absolutism on murtud!",
+            "historical_fact": "20. juunil 1789 andis Kolmas seisus Pallimängusaali vande. Abbé Sieyès kirjutas kuulsas pamfletis: 'Mis on kolmas seisus? Kõik. Mis on ta seni olnud? Mitte midagi. Mida ta nõuab? Saada millekski.'"
+          },
+          {
+            "text": "Nõustuda traditsioonilise seisuste hääletusega, et mitte tekitada konflikti kuninga ja kirikuga.",
+            "gold": 10,
+            "army": 10,
+            "people": -35,
+            "culture": -25,
+            "consequence": "Rahvas peab teid reeturiks. Pariisi tänavatel algavad massilised mässud ja rüüstamised.",
+            "historical_fact": "Kuninga katse säilitada vana seisuslikku korda tõukas lihtrahva relvastatud vastuhakule, sest leivahind oli tõusnud talumatult kõrgele."
+          },
+          {
+            "text": "Pakkuda kuningale uusi makse vastutasuks piiratud kohaliku omavalitsuse eest.",
+            "gold": 15,
+            "army": 0,
+            "people": -10,
+            "culture": 5,
+            "consequence": "Habelemuslik kompromiss ei rahulda kumbagi poolt ja revolutsiooni ratast enam ei peata.",
+            "historical_fact": "Poliitiline kriis oli arenenud liiga kaugele: rahvas ei leppinud enam pelgalt maksureformiga, vaid nõudis seadusandlikku võimu."
+          }
+        ]
+      },
+      {
+        "id": "e5_2",
+        "title": "14. juuli 1789: Bastille' kindluse vallutamine",
+        "situation": "Kuningas koondab Pariisi ümber šveitsi ja saksa palgasõdureid. Rahvas otsib relvi ja püssirohtu. Rahvamass koguneb kurikuulsa Bastille' kuningliku kindlus-vangla ette.",
+        "choices": [
+          {
+            "text": "Tormata Bastille' kindlusele ja purustada absolutismi sümbol maatasa!",
+            "gold": -5,
+            "army": 20,
+            "people": 45,
+            "culture": 30,
+            "consequence": "Kindlus vallutatakse! Markii de Lafayette asub Rahvuskaardi etteotsa ja kuningas kinnitab oma rinda revolutsioonilise trikoloori (sinine-valge-punane kokard).",
+            "historical_fact": "14. juulit tähistatakse Prantsusmaa rahvuspühana. Bastille' vallutamine sümboliseeris vana korra (Ancien Régime) kokkuvarisemist."
+          },
+          {
+            "text": "Käskida garnisonil tulistada rahvahulka kahuritest ja suruda mäss veriselt maha.",
+            "gold": -10,
+            "army": 15,
+            "people": -50,
+            "culture": -35,
+            "consequence": "Kogu Pariis tõuseb barrikaadidele. Sõdurid keelduvad tulistamast ja liituvad rahvaga. Kuberneri pea kantakse piigi otsas.",
+            "historical_fact": "Bastille' komandant de Launay andis käsu tulistada, kuid pärast garnisoni alistumist ta tapeti vihase rahvamassi poolt."
+          },
+          {
+            "text": "Saata saadikud läbi rääkima, et kindlus loovutaks vabatahtlikult püssirohu.",
+            "gold": 0,
+            "army": 0,
+            "people": 15,
+            "culture": 10,
+            "consequence": "Läbirääkimised venivad, kuni rahvamass kaotab kannatuse ja võtab kindluse ikkagi tormijooksuga.",
+            "historical_fact": "Kodanike esindajad käisidki algselt kindluses püssirohtu küsimas, kuid arusaamatus tõi kaasa lahingu."
+          }
+        ]
+      },
+      {
+        "id": "e5_3",
+        "title": "August 1789: Inimese ja kodaniku õiguste deklaratsioon",
+        "situation": "Asutav Kogu võtab vastu dokumendi, mis lammutab seisusliku Prantsusmaa feodaalsed alused. Aadlikud loobuvad ööistungil vabatahtlikult oma eesõigustest.",
+        "choices": [
+          {
+            "text": "Võtta vastu deklaratsioon: 'Inimesed sünnivad ja jäävad vabaks ning õigustelt võrdseks!' Kaotada seisused, tsunftid ja aadlitiitlid.",
+            "gold": -5,
+            "army": 5,
+            "people": 40,
+            "culture": 45,
+            "consequence": "Ajaloo üks tähtsamaid dokumente muudab alamad võrdseteks kodanikeks. Kõik mehed saavad võrdsuse seaduse ees.",
+            "historical_fact": "26. augustil 1789 vastu võetud deklaratsioon kuulutas põhiõigusteks vabaduse, omandi, julgeoleku ja vastupanu rõhumisele ning sõna- ja usuvabaduse."
+          },
+          {
+            "text": "Säilitada aadlile eriõigused kohtutes ja ametikohtadel, kuid kaotada kirikukümnis.",
+            "gold": 10,
+            "army": 10,
+            "people": -25,
+            "culture": -20,
+            "consequence": "Talupojad põletavad mõisates võlakirju ja feodaaldokumente (nn 'Suur hirm' ehk La Grande Peur).",
+            "historical_fact": "Talupoegade ülestõusude hirmus loobusid aadlikud 4. augusti ööl oma eesõigustest (feodaalkorra likvideerimine)."
+          },
+          {
+            "text": "Nõuda kohest naiste poliitilist võrdsust ja hääleõigust (Olympe de Gouges'i vaimus).",
+            "gold": 0,
+            "army": -5,
+            "people": 20,
+            "culture": 35,
+            "consequence": "Revolutsiooniline konvent peab ideed liiga radikaalseks, kuid see külvab esimese seemne naisõiguslusele Euroopas.",
+            "historical_fact": "Olympe de Gouges kirjutas 1791 'Naise ja naiskodaniku õiguste deklaratsiooni'. Jakobiinide terrori ajal ta paraku hukati giljotiinil."
+          }
+        ]
+      },
+      {
+        "id": "e5_4",
+        "title": "1793–1794: Kuninga hukkamine ja Jakobiinide terror (Robespierre)",
+        "situation": "Kuningas Louis XVI on süüdi mõistetud riigireetmises (püüdis põgeneda ja kutsus välisvägesid appi). Vabariiki ründavad Austria, Preisimaa ja Inglismaa; Vendée's mässavad rojalistid. Maximilien Robespierre nõuab terrorit vooruse nimel.",
+        "choices": [
+          {
+            "text": "Toetada mõõdukaid žirondiine: saata kuningas maalt välja ja lahendada kriis ilma massiterrorita.",
+            "gold": 5,
+            "army": -15,
+            "people": 10,
+            "culture": 20,
+            "consequence": "Jakobiinid süüdistavad teid 'pehmuses' ja revolutsiooni reetmises. Pariisi sanskülotid piiravad Konvendi.",
+            "historical_fact": "Žirondiinid pooldasid mõõdukust ja provintside autonoomiat. 1793. a kukutati nad võimult ja paljud nende juhid hukati."
+          },
+          {
+            "text": "Hääletada kuninga hukkamise poolt ja toetada Robespierre'i Rahva Päästekomiteed: giljotiin käima!",
+            "gold": 15,
+            "army": 30,
+            "people": -35,
+            "culture": -30,
+            "consequence": "Louis XVI giljotineeritakse. Algab hirmualitsus: üle 40 000 inimese hukatakse 'kahtlastena'. Diktatuur päästab rinde, kuid külvab hirmu.",
+            "historical_fact": "21. jaanuaril 1793 hukati Louis XVI. Jakobiinide terrorit juhtis Robespierre ('Arakorrumpeerumatu'), kuni ta ise 1794. a Termidoori riigipöördega hukati."
+          },
+          {
+            "text": "Korraldada 1794 Termidoori riigipööre: vahistada Robespierre ja lõpetada verine terror!",
+            "gold": 10,
+            "army": 10,
+            "people": 25,
+            "culture": 20,
+            "consequence": "Robespierre viiakse samale giljotiinile. Vanglad avatakse, terror lõpeb ja võimule tuleb Direktoorium.",
+            "historical_fact": "9. termidooril (27. juulil 1794) kukutati jakobiinid. Prantsusmaa oli terrorist väsinud ja otsis stabiilsust, mis sillutas teed Napoleonile."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "6. Peatükk: Napoleoni impeerium ja Euroopa ümberkorraldamine",
+    "period": "1799–1815 (Euroopa lahinguväljad)",
+    "role": "Keiser Napoleon I peamarssal ja riiginõunik",
+    "description": "Korsikalt pärit noor suurtükiväeohvitser Napoleon Bonaparte haarab 1799 riigipöördega võimu ja kroonib end 1804 keisriks. Tema armeede sammude all väriseb vana Euroopa. Kas suudad luua püsiva korra või neelab sõda impeeriumi?",
+    "intro_lore": "Napoleon oli ühtaegu revolutsiooni pärija ja sõjaline valitseja. Tema Tsiviilkoodeks kehtib paljudes riikides tänaseni. Austerlitz, Borodino ja Waterloo määrasid 19. sajandi Euroopa piirid.",
+    "events": [
+      {
+        "id": "e6_1",
+        "title": "1804: Napoleoni Tsiviilkoodeks (Code Civil)",
+        "situation": "Napoleon soovib ühendada revolutsiooni saavutused tugeva riigiga. Juristid esitavad uue seadustiku eelnõu.",
+        "choices": [
+          {
+            "text": "Kehtestada Tsiviilkoodeks: kõigi kodanike võrdsus seaduse ees, eraomandi kaitse ja kiriku lahutatus riigist!",
+            "gold": 20,
+            "army": 15,
+            "people": 30,
+            "culture": 40,
+            "consequence": "Koodeks levib üle Euroopa, lammutades feodaalsuhted Itaalias, Saksamaal ja Poolas. Napoleon ütleb: 'Minu tõeline hiilgus ei ole 40 võidetud lahingut, vaid minu Tsiviilkoodeks.'",
+            "historical_fact": "1804. aasta Code Civil sai kaasaegse eraõiguse eeskujuks kogu maailmas. See kindlustas talupoegadele revolutsiooni ajal saadud maa ja tagas seadusliku võrdsuse."
+          },
+          {
+            "text": "Taastada vana aadlikord ja anda kirikule tagasi konfiskeeritud maad.",
+            "gold": -15,
+            "army": -10,
+            "people": -40,
+            "culture": -25,
+            "consequence": "Prantsuse rahvas ja sõdurid tunnevad end reedetuna; revolutsiooni saavutused häviksid.",
+            "historical_fact": "Napoleon sõlmis paavstiga Konkordaadi (1801), tunnustades katoliiklust kui 'enamiku prantslaste usku', kuid konfiskeeritud maid kirikule tagasi ei andnud."
+          },
+          {
+            "text": "Kehtestada range sõjaväeline diktatuur ilma tsiviilseadusteta.",
+            "gold": 10,
+            "army": 25,
+            "people": -20,
+            "culture": -15,
+            "consequence": "Armee valitseb, kuid majandus ja eraalgatus soikuvad bürokraatia all.",
+            "historical_fact": "Napoleon mõistis, et impeerium vajab stabiilset õigussüsteemi ja Prantsuse Panka (Banque de France), mitte pelgalt tääkide võimu."
+          }
+        ]
+      },
+      {
+        "id": "e6_2",
+        "title": "1805: Austerlitzi 'Kolmekeisrilahing'",
+        "situation": "Moraavias seisavad vastamisi Napoleoni Prantsuse armee ning Vene tsaari Aleksander I ja Austria keisri Franz II ühendväed. Maastikku katab hommikune udu.",
+        "choices": [
+          {
+            "text": "Teeselda nõrkust paremal tiival, meelitada vaenlane kõrgendikelt alla ja anda ootamatu pealöök Pratzeni kõrgendike keskele!",
+            "gold": 15,
+            "army": 45,
+            "people": 25,
+            "culture": 20,
+            "consequence": "Hiilgav võit! Vaenlase rinne rebitakse pooleks, liitlased põgenevad üle külmunud järvede jää. Austria palub rahu ja Püha Rooma keisririik lakkab olemast.",
+            "historical_fact": "Austerlitzi lahing (2. detsember 1805) peetakse Napoleoni taktikaliseks meistriteoseks. Selle järel lõpetas tegevuse peaaegu tuhat aastat eksisteerinud Püha Rooma riik."
+          },
+          {
+            "text": "Jääda kaitsesse ja oodata lisajõude Viinist.",
+            "gold": -10,
+            "army": 5,
+            "people": 0,
+            "culture": 5,
+            "consequence": "Liitlasväed piiravad sind ümber ja saavutavad arvulise ülekaalu, lahing venib kurnavaks tapatalguks.",
+            "historical_fact": "Napoleoni edu saladus oli liikumiskiirus ja vaenlase eksitamine, mitte passiivne kaitse."
+          },
+          {
+            "text": "Pakkuda liitlastele vaherahu ja taganeda Reini taha.",
+            "gold": -20,
+            "army": -25,
+            "people": -15,
+            "culture": -10,
+            "consequence": "Preisi kuningriik liitub kohe koalitsiooniga ja Prantsusmaa kaotab oma strateegilise initsiatiivi.",
+            "historical_fact": "1805. aastal purustas Inglise admiral Nelson küll Prantsuse laevastiku Trafalgari lahingus, kuid mandril oli Napoleon peatamatu."
+          }
+        ]
+      },
+      {
+        "id": "e6_3",
+        "title": "1806: Kontinentaalblokaad Suurbritannia vastu",
+        "situation": "Kuna Briti laevastik valitseb meresid, otsustab Napoleon Suurbritannia põlvili suruda majanduslikult, keelates kogu Euroopal kaubavahetuse Inglismaaga.",
+        "choices": [
+          {
+            "text": "Kehtestada Berliini dekreet: sulgeda kõik Euroopa sadamad Briti laevadele ja konfiskeerida nende kaubad!",
+            "gold": -15,
+            "army": 15,
+            "people": -20,
+            "culture": 5,
+            "consequence": "Briti kaubandus kannatab, kuid Euroopas algab kohvi, suhkru ja puuvilla puudus ning vohab salakaubandus. Liitlased nurisevad.",
+            "historical_fact": "Kontinentaalblokaad tekitas Euroopas suurt rahulolematust. Kuna Venemaa rikkus blokaadi vilja müümiseks Inglismaale, otsustas Napoleon 1812. aastal Venemaale tungida."
+          },
+          {
+            "text": "Arendada Euroopa-sisest rasketööstust ja toota suhkrut suhkrupeedist.",
+            "gold": 20,
+            "army": 10,
+            "people": 10,
+            "culture": 25,
+            "consequence": "Uued tehnoloogiad (nt suhkrupeet ja kodumaine tekstiil) saavad tuule tiibadesse, asendades koloniaalkaupu.",
+            "historical_fact": "Blokaadi ajal hakati Euroopas laialdaselt arendama suhkrupeedist suhkru tootmist ja keemilisi värvaineid, mis elavdas teadust."
+          },
+          {
+            "text": "Tühistada blokaad ja lubada vaba merekaubandust.",
+            "gold": 30,
+            "army": -10,
+            "people": 25,
+            "culture": 15,
+            "consequence": "Kaubandus õitseb, kuid Inglismaa jätkab koalitsioonide rahastamist Prantsusmaa vastu kulla ja relvadega.",
+            "historical_fact": "Suurbritannia oli 'koalitsioonide pankur' – tänu oma tohutule tööstuslikule rikkusele maksis ta toetusi Austria, Preisimaa ja Vene armeedele."
+          }
+        ]
+      },
+      {
+        "id": "e6_4",
+        "title": "1812: Sõjakäik Venemaale ja Moskva põlemine",
+        "situation": "Napoleon marssib 600 000-mehelise Suure Armeega (Grande Armée) Venemaale. Pärast verist Borodino lahingut siseneb keiser hüljatud Moskvasse. Öösel süttib linn leekidesse ja läheneb 'Kindral Talv'.",
+        "choices": [
+          {
+            "text": "Anda kohe käsk kiireks taganemiseks Smolenski ja Leedu suunas, enne kui tabavad -30°C pakane ja lumetormid!",
+            "gold": -10,
+            "army": -15,
+            "people": -10,
+            "culture": 5,
+            "consequence": "Säästad osa armee tuumikust ja suurtükkidest, kuigi sõjakäik on läbi kukkunud.",
+            "historical_fact": "Napoleon viivitas Moskvas üle kuu aja, oodates asjatult tsaari rahupakkumist. Taganemisel näljas ja külmas hukkus peaaegu kogu Suur Armee."
+          },
+          {
+            "text": "Oodata Moskvas tsaar Aleksander I kapituleerumist kuni oktoobri lõpuni.",
+            "gold": -35,
+            "army": -50,
+            "people": -30,
+            "culture": -20,
+            "consequence": "Täielik katastroof! Berezina jõe ületamisel hävib armee peaaegu täielikult. Hobused süüakse ära, suurtükid jäetakse lumme.",
+            "historical_fact": "Vene väed kindral Kutuzovi juhtimisel kasutasid taganemise ja kurnamise taktikat. 600 000 mehest naasis üle piiri vaevalt mõnikümmend tuhat."
+          },
+          {
+            "text": "Marssida Moskvast otse Peterburi suunas keisrit tabama.",
+            "gold": -30,
+            "army": -45,
+            "people": -25,
+            "culture": -10,
+            "consequence": "Vene partisanid ja teedetus hävitavad väed enne Novgorodi jõudmist.",
+            "historical_fact": "Vene partisaniliikumine (Denis Davõdov jt) ja kasakad ründasid lakkamatult Prantsuse armee moonavoore ja tagalat."
+          }
+        ]
+      },
+      {
+        "id": "e6_5",
+        "title": "1815: Waterloo lahing ja Viini kongress",
+        "situation": "Pärast pagendust Elbal naaseb Napoleon 100 päevaks võimule. Belgias Waterloo küla all seisab hertsog Wellingtoni Briti armee; läheneb marssal Blücheri Preisi korpus.",
+        "choices": [
+          {
+            "text": "Saata marssal Ney ratsarünnakuga Wellingtoni ruutude vastu ja paisata lahingusse Vana Kaardivägi enne preislaste saabumist!",
+            "gold": -20,
+            "army": -30,
+            "people": -10,
+            "culture": 10,
+            "consequence": "Wellington peab vastu hüüdega 'Kas öö või Blücher!'. Preislased ründavad tiivalt. Kaardivägi taandub hüüdega 'Reetmine!'. Napoleoni ajastu on läbi.",
+            "historical_fact": "18. juunil 1815 toimunud Waterloo lahingus sai Napoleon lõpliku kaotuse. Ta saadeti kaugele Saint Helena saarele, kus ta 1821 suri."
+          },
+          {
+            "text": "Aktsepteerida Viini kongressi otsuseid: taastada jõudude tasakaal, legitiimne monarhia ja luua 'Püha Liit'.",
+            "gold": 15,
+            "army": 10,
+            "people": 10,
+            "culture": 20,
+            "consequence": "Euroopas algab Metternichi süsteemi rahuperiood. Piirid joonistatakse ümber, vältides suuri sõdu peaaegu 40 aastaks.",
+            "historical_fact": "Viini kongressil (1814–1815) juhtis Austria kantsler Metternich legitiimsuse ja tasakaalu printsiibi taaskehtestamist, luues Venemaa, Austria ja Preisimaa 'Püha Liidu'."
+          },
+          {
+            "text": "Põgeneda Ameerikasse ja hakata vabariiklaste nõustajaks.",
+            "gold": 20,
+            "army": -20,
+            "people": 15,
+            "culture": 15,
+            "consequence": "Napoleon veedab rahuliku vanaduspõlve New Yorgis, kuid Euroopa kuningad taastavad Bourbonide dünastia.",
+            "historical_fact": "Napoleon kaalus tõepoolest USA-sse põgenemist, kuid Briti laevastik pidas tema laeva kinni enne Atlandile pääsemist."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "7. Peatükk: Tööstusrevolutsioon ja Eesti talurahva vabastamine",
+    "period": "18.–19. sajandi esimene pool (Suurbritannia ja Liivi/Eestimaa)",
+    "role": "Manufaktuuriomanik ja Liivimaa kubermangu maapäeva reformimeelne saadik",
+    "description": "James Watti aurumasin paneb aluse Tööstusrevolutsioonile: vabrikukorstnad suitsevad, rongid kihutavad rööbastel ja linnad kasvavad plahvatuslikult. Samal ajal kaotatakse 1816/1819 Eestis pärisorjus – talupoeg saab isikliku vabaduse, kuid maa jääb mõisnikule.",
+    "intro_lore": "Käsitöö asendus masintootmisega. Tekkisid uued ühiskonnaklassid: tööstusburžuaasia ja proletariaat (palgatöölised). Eestis algas pikk tee pärisorjusest talude päriseksostmise ja rahvusliku ärkamiseni.",
+    "events": [
+      {
+        "id": "e7_1",
+        "title": "James Watti aurumasin ja vabrikute sünd",
+        "situation": "Šoti insener James Watt patenteerib täiustatud aurumasina. Söekaevandused ja tekstiilimanufaktuurid vajavad tohutut investeeringut, et asendada hobused ja vesirattad auru jõuga.",
+        "choices": [
+          {
+            "text": "Ehitada esimene auru jõul töötav ketrus- ja kudumisvabrik ning söekaevandus!",
+            "gold": -25,
+            "army": 10,
+            "people": 15,
+            "culture": 40,
+            "consequence": "Tootlikkus tõuseb sajakordselt! Riie muutub odavaks ja kättesaadavaks. Algab tõeline industriaalajastu.",
+            "historical_fact": "James Watti aurumasin (1769/1784) oli universaalne jõuallikas, mida sai paigutada ükskõik kuhu, sõltumata jõgedest. See võimaldas vabrikutootmise tormilise arengu."
+          },
+          {
+            "text": "Jääda traditsiooniliste veeveskite ja kodukäsitöö juurde, sest aurukatlad võivad plahvatada.",
+            "gold": 10,
+            "army": -5,
+            "people": 5,
+            "culture": -25,
+            "consequence": "Turvaline valik, kuid naabrid toodavad tooted poole odavamalt ja sinu manufaktuur pankrotistub peagi.",
+            "historical_fact": "Tööstusrevolutsiooni alguses Inglismaal hävitas masintootmine traditsioonilise käsitöö ja manufaktuurid, viies Suurbritannia 'maailma töökojaks'."
+          },
+          {
+            "text": "Investeerida George Stephensoni auruvedurisse 'Rocket' ja ehitada esimene raudteeliin!",
+            "gold": -30,
+            "army": 20,
+            "people": 25,
+            "culture": 45,
+            "consequence": "Raudtee ühendab söebasseinid sadamatega! Kauba ja inimeste vedu kiireneb päevadelt tundidele.",
+            "historical_fact": "1825 avati Inglismaal esimene avalik raudteeliin (Stockton-Darlington) ja 1830 Liverpool-Manchesteri liin George Stephensoni auruveduriga 'Rocket'."
+          }
+        ]
+      },
+      {
+        "id": "e7_2",
+        "title": "Ludiidid (masinalõhkujad) ja tööliste olukord",
+        "situation": "Masinad jätavad tuhanded kudujad tööta. Öösiti murravad mehed vabrikutesse ja peksavad kuvaldadega masinaid puruks (ludiidid ehk kindral Nedd Luddi järgijad). Töölistel on 14-tunnine tööpäev ja vabrikuis töötavad 8-aastased lapsed.",
+        "choices": [
+          {
+            "text": "Võtta vastu esimesed vabrikuseadused: piirata laste tööpäeva 10 tunnile, keelata öötöö ja luua vabrikukoolid!",
+            "gold": -10,
+            "army": 5,
+            "people": 35,
+            "culture": 35,
+            "consequence": "Sotsiaalsed pinged leevenevad. Tööliste haridus ja tervis paranevad, tootlikkus püsib kõrge.",
+            "historical_fact": "Inglismaal võeti 1833 vastu 'Vabrikuseadus' (Factory Act), mis keelas alla 9-aastaste laste töö tekstiilivabrikutes ja piiras vanemate laste tööpäeva. See oli sotsiaalkaitse algus."
+          },
+          {
+            "text": "Suruda rahutused sõjaväega maha ja kehtestada masinate purustamise eest surmanuhtlus!",
+            "gold": 15,
+            "army": 20,
+            "people": -45,
+            "culture": -20,
+            "consequence": "Mitu mässujuhti pootakse või saadetakse Austraaliasse sunnitööle, kuid vihkamine vabrikuomanike vastu hõõgub tuha all.",
+            "historical_fact": "1812 võttis Briti parlament vastu seaduse (Frame Breaking Act), mis tegi masinate lõhkumise karistatavaks surmanuhtlusega. Lord Byron esines parlamendis selle seaduse vastu."
+          },
+          {
+            "text": "Keelata ametiühingud ja maksta töölistele palka toidutalongides.",
+            "gold": 25,
+            "army": 10,
+            "people": -35,
+            "culture": -15,
+            "consequence": "Lühiajaline kasum on suur, kuid töölislinnaosadest saavad epideemiate ja kuritegevuse kolded.",
+            "historical_fact": "Tööstusrevolutsiooni alguses elas proletariaat kohutavates tingimustes (slummid, kanalisatsiooni puudumine, koleraepideemiad), mis viis hiljem ametiühingute ja sotsialismi sünnini."
+          }
+        ]
+      },
+      {
+        "id": "e7_3",
+        "title": "1816 ja 1819: Pärisorjuse kaotamine Eestis ja Liivimaal",
+        "situation": "Aleksander I kinnitab 1816 Eestimaa ja 1819 Liivimaa talurahvaseadused. Mõisnikud arutavad: talupojad saavad isiklikult vabaks, aga kellele kuulub maa?",
+        "choices": [
+          {
+            "text": "Anda talupoegadele isiklik vabadus, kuid jätta kogu maa mõisniku omandiks ('Linnupriius')! Teoorjus asendada vabatahtlike lepingutega.",
+            "gold": 20,
+            "army": 5,
+            "people": 15,
+            "culture": 20,
+            "consequence": "Talupoeg ei ole enam pärisori ega mõisniku vallasasi. Kuid ilma maata peab ta ikkagi tegema teoorjust, et põldu rentida – tekkis nn 'linnupriius'.",
+            "historical_fact": "1816. ja 1819. a talurahvaseadused kaotasid pärisorjuse (talupoeg sai vabaks, võis abielluda ja omandit omada), kuid maa jäi mõisnikule. Vabadus ilma maata sai nimeks 'linnupriius'."
+          },
+          {
+            "text": "Vabastada talupojad koos maaga, tehes neist kohe oma põllulapi omanikud.",
+            "gold": -30,
+            "army": -15,
+            "people": 50,
+            "culture": 30,
+            "consequence": "Baltisaksa rüütelkonnad tõstavad marulist protesti, kuid eesti talurahvas muutub iseseisvaks ja jõukaks peremeeste klassiks.",
+            "historical_fact": "Reaalsuses maad talupoegadele tasuta ei antud. Alles 19. sajandi teisel poolel (1860. aastatest alates) algas talude päriseksostmine raha eest."
+          },
+          {
+            "text": "Lükata reform edasi: talupojad ei oska vabadusega midagi peale hakata.",
+            "gold": 10,
+            "army": 5,
+            "people": -40,
+            "culture": -30,
+            "consequence": "Eesti jääb Euroopa mahajäänumaks nurgaks, puhkevad talurahvarahutused (Pühajärve sõda, Mahtra sõda).",
+            "historical_fact": "Eesti ja Liivimaa kubermangudes kaotati pärisorjus peaaegu pool sajandit varem kui Venemaa sisekubermangudes (kus pärisorjus kaotati alles 1861. a)."
+          }
+        ]
+      },
+      {
+        "id": "e7_4",
+        "title": "Perekonnanimede panemine ja hariduse ärkamine (1820–1835)",
+        "situation": "Pärisorjuse kaotamise järel tuleb eestlastele panna ametlikud perekonnanimed. Samuti nõuab seadus vallakoolide rajamist iga 1000 elaniku kohta.",
+        "choices": [
+          {
+            "text": "Panna eestlastele ilusad loodus- ja kohanimed (Tamm, Kask, Oja, Mägi) ning ehitada igasse valda koolimaja!",
+            "gold": -15,
+            "army": 5,
+            "people": 40,
+            "culture": 50,
+            "consequence": "Eestlased saavad väärikad nimed ja kirjaoskus teeb tohutu hüppe. See paneb aluse peagi saabuvale rahvuslikule ärkamisajale!",
+            "historical_fact": "1820.–1830. aastatel pandi Eestis talupoegadele perekonnanimed (u 30 000 eri nime). Vallakoolide võrk tegi eestlastest 19. sajandi lõpuks ühe Euroopa kõrgeima kirjaoskusega rahva (üle 90%)."
+          },
+          {
+            "text": "Panna pilkenimesid ja saksapäraseid nimesid ning piirata koolides vaid katekismuse tuupimisega.",
+            "gold": 5,
+            "army": 0,
+            "people": -20,
+            "culture": -20,
+            "consequence": "Mõned pastorid panevad solvavaid nimesid. Rahvas on solvunud ja haridus jääb ühekülgseks.",
+            "historical_fact": "Nimesid panid pastorid ja mõisnikud. Enamik nimesid olid loodusest või ametitest, kuid leidus ka saksapäraseid mugandusi ja üksikuid pilkenimesid."
+          },
+          {
+            "text": "Koostada eestikeelne ajaleht ja toetada esimesi eesti soost üliõpilasi Tartu Ülikoolis (Kristjan Jaak Peterson).",
+            "gold": -10,
+            "army": 0,
+            "people": 35,
+            "culture": 55,
+            "consequence": "Kristjan Jaak Peterson kõnnib jalgsi Riiast Tartusse ja küsib: 'Kas siis selle maa keel laulutuules ei või taevani tõustes üles igavikku omale otsida?' Rahvuslik eneseteadvus tärkab!",
+            "historical_fact": "Kristjan Jaak Peterson (1801–1822) oli eesti esimene luuletaja ja keelemees, kes kandis uhkusega eesti rahvariideid ja õppis taasavatud (1802) Tartu Ülikoolis."
+          }
+        ]
+      }
+    ]
+  }
+]
